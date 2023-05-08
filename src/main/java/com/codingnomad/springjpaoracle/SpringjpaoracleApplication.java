@@ -23,6 +23,7 @@ public class SpringjpaoracleApplication {
 		emprepository = ctx.getBean(EmployeeRepository.class);
 		int selection;
 		boolean validSel = true;
+		
 		try (Scanner input = new Scanner(System.in)) {
 			while (validSel) {
 				/***************************************************/
@@ -37,7 +38,8 @@ public class SpringjpaoracleApplication {
 				System.out.println("6 - Custom Finder");
 				System.out.println("7 - JPQL Example 1");
 				System.out.println("8 - Native Example 1");
-				selection = input.nextInt();
+				//selection = input.nextInt();
+				selection = 2;
 
 				// loop
 				switch (selection) {
@@ -90,8 +92,8 @@ public class SpringjpaoracleApplication {
 	}
 
 	private static void insertDataMulti() {
-		Employee emp1 = new Employee("MultInsert1", "Puri", "Adelaide");
-		Employee emp2 = new Employee("MultInsert2", "Puri", "Adelaide");
+		Employee emp1 = new Employee("DockerInsert", "Puri", "Adelaide");
+		Employee emp2 = new Employee("DockerInsert", "Puri", "Adelaide");
 		List<Employee> emps = List.of(emp1, emp2);
 		Iterable<Employee> result = emprepository.saveAll(emps);
 		result.forEach(emp -> {
