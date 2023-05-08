@@ -1,0 +1,97 @@
+
+Choose from these choices
+-------------------------
+
+0 - Quit
+1 - Insert Employee
+2 - Insert Multiple Employees
+3 - Get Single Employee
+4 - Update Employee
+5 - Delete Student
+1
+Employee added with id :7
+Employee [id=7, firstName=Sunny, lastName=Puri, EMP_CITY=Darwin]
+Choose from these choices
+-------------------------
+
+0 - Quit
+1 - Insert Employee
+2 - Insert Multiple Employees
+3 - Get Single Employee
+4 - Update Employee
+5 - Delete Student
+4
+Enter Student ID to be updated
+7
+Optional[Employee [id=7, firstName=Sunny, lastName=Puri, EMP_CITY=Darwin]]
+Choose from these choices
+-------------------------
+
+0 - Quit
+1 - Insert Employee
+2 - Insert Multiple Employees
+3 - Get Single Employee
+4 - Update Employee
+5 - Delete Student
+5
+Enter Employee ID to be deleted
+7
+Employee Deleted 
+Choose from these choices
+-------------------------
+
+0 - Quit
+1 - Insert Employee
+2 - Insert Multiple Employees
+3 - Get Single Employee
+4 - Update Employee
+5 - Delete Student
+0
+
+
+0 - Quit
+1 - Insert Employee
+2 - Insert Multiple Employees
+3 - Get Single Employee
+4 - Update Employee
+5 - Delete Student
+6 - Custom Finder
+6
+Employee [id=8, firstName=Sunny, lastName=Puri, EMP_CITY=Darwin]
+Employee [id=3, firstName=Sunny, lastName=Puri, EMP_CITY=Darwin]
+Employee [id=6, firstName=Sunny, lastName=Puri, EMP_CITY=Darwin]
+Choose from these choices
+
+Choose from these choices
+-------------------------
+
+0 - Quit
+1 - Insert Employee
+2 - Insert Multiple Employees
+3 - Get Single Employee
+4 - Update Employee
+5 - Delete Student
+6 - Custom Finder
+7 - JPQL Example1
+7
+Employee [id=8, firstName=Sunny, lastName=Puri, EMP_CITY=Darwin]
+Employee [id=3, firstName=Sunny, lastName=Puri, EMP_CITY=Darwin]
+Employee [id=6, firstName=Sunny, lastName=Puri, EMP_CITY=Darwin]
+Choose from these choices
+-------------------------
+
+0 - Quit
+1 - Insert Employee
+2 - Insert Multiple Employees
+3 - Get Single Employee
+4 - Update Employee
+5 - Delete Student
+6 - Custom Finder
+7 - JPQL Example 1
+8 - Native Example 1
+8
+Employee [id=8, firstName=Sunny, lastName=Puri, EMP_CITY=Darwin]
+Employee [id=3, firstName=Sunny, lastName=Puri, EMP_CITY=Darwin]
+Employee [id=6, firstName=Sunny, lastName=Puri, EMP_CITY=Darwin]
+Choose from these choices
+-------------------------

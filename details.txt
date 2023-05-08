@@ -1,0 +1,6 @@
+Some issue with spring boot dev tools
+ IllegalStateException
+ boot dev tools Could not bind properties to 'DataSourceProperties' : prefix=spring.datasource, ignoreInvalidFields=false, ignoreUnknownFields=true
+ try:
+ https://stackoverflow.com/questions/62790803/spring-could-not-bing-properties-to-datasourceproperties
+ https://stackoverflow.com/questions/57906674/spring-application-fails-to-restart
